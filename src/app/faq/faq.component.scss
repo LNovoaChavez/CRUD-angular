@@ -1,0 +1,28 @@
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  
+    mat-expansion-panel {
+      background-color: #e0e0e0; // Color de fondo similar a la imagen
+      margin-bottom: 0.5rem;
+  
+      mat-expansion-panel-header {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  
+    mat-icon {
+      color: black; // Color de la flecha
+    }
+  }
+  
